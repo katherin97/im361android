@@ -1,0 +1,2 @@
+rootProject.name='Disaster Preperation'
+include ':app'
