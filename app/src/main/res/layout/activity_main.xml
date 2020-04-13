@@ -1,19 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text_view"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:scrollbars="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabBackground="@color/colorPrimary"
+        app:tabIndicatorColor="#FFFFFF"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabTextColor="#AEAEAE">
 
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Tornado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tornado" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Hurricane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hurricane" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Earthquake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earthquake" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="681dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/QS1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textPersonName"
+                android:text="What are tornadoes?"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/TX1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="Tornadoes are vertical funnels of rapidly spinning air. They arre born in thunderstorms and are often accompanied by hail, with giant, persistent thunderstorms called supercells being known to spawn the most destructive tornadoes."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/QS2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textPersonName"
+                android:text="What causes tornadoes?"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/TX2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="Tornadoes form when warm, humid air collides with cold, dry air. When the denser cold air is pushed over the warm air, thunderstorms are produced. When the warm air rises through the colder air, it causes an updraft that will begin to rotate if winds vary in speed or direction."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TX3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="The rotating updraft, which is called a mesocycle, draws in more warm air from the thunderstorm, the rotation speed increases. The cold air from the jet stream provides more energy, and water from the moist air helps form the funnel cloud. Once the funnel cloud touches the ground, it becomes a tornado."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/QS3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textPersonName"
+                android:lineSpacingExtra="24sp"
+                android:text="Where are they common?"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/TX4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="While tornadoes can happen anywhere, they are most common in the Great Plains, otherwise known as Tornado Alley. This is caused by the cold, dry air coming down from Canada meeting the warm, moist air traveling from the Gulf of Mexico."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Enhanced Fujita Scale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="textPersonName"
+                android:text="Enhanced Fujita Scale"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/Terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="EF Rating     Class       Wind Speed (MPH-KM/J)" />
+
+            <TextView
+                android:id="@+id/EF-0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-0              weak           65-85 / 105-137"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/EF-1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-1              weak           86-110 / 137-177"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/EF-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-2              strong         111-135 / 178-217"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ef-3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-3              strong         136-165 / 218-266"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ef-4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-4              violent         166-200 / 267-322"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ef-5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text=" EF-5              violent         >200 / >322"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
