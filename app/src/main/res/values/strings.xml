@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Disaster Preperation</string>
+    <string name="tornado">Tornado</string>
+    <string name="hurricane">Hurricane</string>
+    <string name="earthquake">Earthquake</string>
+    <string name="what_are_tornadoes">What are tornadoes?</string>
+    <string name="tornadoes_are_vertical_funnels_of_rapidly_spinning_air_they_arre_born_in_thunderstorms_and_are_often_accompanied_by_hail_with_giant_persistent_thunderstorms_called_supercells_being_known_to_spawn_the_most_destructive_tornadoes">Tornadoes are vertical funnels of rapidly spinning air. They arre born in thunderstorms and are often accompanied by hail, with giant, persistent thunderstorms called supercells being known to spawn the most destructive tornadoes.</string>
+    <string name="what_causes_tornadoes">What causes tornadoes?</string>
+    <string name="tornadoes_form_when_warm_humid_air_collides_with_cold_dry_air_when_the_denser_cold_air_is_pushed_over_the_warm_air_thunderstorms_are_produced_when_the_warm_air_rises_through_the_colder_air_it_causes_an_updraft_that_will_begin_to_rotate_if_winds_vary_in_speed_or_direction">Tornadoes form when warm, humid air collides with cold, dry air. When the denser cold air is pushed over the warm air, thunderstorms are produced. When the warm air rises through the colder air, it causes an updraft that will begin to rotate if winds vary in speed or direction.</string>
+    <string name="the_rotating_updraft_which_is_called_a_mesocycle_draws_in_more_warm_air_from_the_thunderstorm_the_rotation_speed_increases_the_cold_air_from_the_jet_stream_provides_more_energy_and_water_from_the_moist_air_helps_form_the_funnel_cloud_once_the_funnel_cloud_touches_the_ground_it_becomes_a_tornado">The rotating updraft, which is called a mesocycle, draws in more warm air from the thunderstorm, the rotation speed increases. The cold air from the jet stream provides more energy, and water from the moist air helps form the funnel cloud. Once the funnel cloud touches the ground, it becomes a tornado.</string>
+    <string name="where_are_they_common">Where are they common?</string>
+    <string name="while_tornadoes_can_happen_anywhere_they_are_most_common_in_the_great_plains_otherwise_known_as_tornado_alley_this_is_caused_by_the_cold_dry_air_coming_down_from_canada_meeting_the_warm_moist_air_traveling_from_the_gulf_of_mexico">While tornadoes can happen anywhere, they are most common in the Great Plains, otherwise known as Tornado Alley. This is caused by the cold, dry air coming down from Canada meeting the warm, moist air traveling from the Gulf of Mexico.</string>
+    <string name="enhanced_fujita_scale">Enhanced Fujita Scale</string>
+    <string name="ef_0_weak_65_85_105_137">EF-0 weak 65-85 / 105-137</string>
+    <string name="ef_1_weak_86_110_137_177">EF-1 weak 86-110 / 137-177</string>
+    <string name="ef_2_strong_111_135_178_217">EF-2 strong 111-135 / 178-217</string>
+    <string name="ef_3_strong_136_165_218_266">EF-3 strong 136-165 / 218-266</string>
+    <string name="ef_4_violent_166_200_267_322">EF-4 violent 166-200 / 267-322</string>
+    <string name="ef_5_violent_200_322"><![CDATA[EF-5 violent >200 / >322]]></string>
+    <string name="ef_rating_class_wind_speed_mph_km_j">EF Rating Class Wind Speed (MPH-KM/J)</string>
+    <string name="tsunami">Tsunami</string>
+    <string name="volcano">Volcano</string>
+    <string name="tab8">Tab8</string>
+    <string name="wildfire">Wildfire</string>
+    <string name="blizzard">Blizzard</string>
+    <string name="drought">Drought</string>
+    <string name="flood">Flood</string>
 </resources>
