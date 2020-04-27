@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -28,7 +27,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="What are hurricanes?"
+                android:text="What are earthquakes?"
                 android:textSize="24sp"
                 android:typeface="normal" />
 
@@ -38,7 +37,17 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Hurricanes arre large, swelling storms that form over warm ocean waters. When a hurricane reaches land, it pushes a wall of ocean water, called a storm surge, ashore. The storm surge and heavy rain from a hurrricane can cause flooding."
+                android:text="An earthquake happens when two tectonic plates slip past one another. The location below the earth's surface where the earthquake starts is called the hypocenter, with the location above on the surface called the epicenter."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TX2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4sp"
+                android:text="Before an earthquake, there are sometimes foreshocks, which happen in the same place the larger earthquake will occur. The largest, main earthquake is called the mainshock, with the afterschocks that follow. And depending on the size of the mainshock, aftershocks can continue for weeks, months, and in some cases, years."
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -50,19 +59,9 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="How does a storm become a hurricane?"
+                android:text="Where do they occur?"
                 android:textSize="24sp"
                 android:typeface="normal" />
-
-            <TextView
-                android:id="@+id/TX2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="4sp"
-                android:text="A hurricane starts as a tropical disturbance. This is an area overr warm ocean waters where rain clouds are building."
-                android:textColor="#000000"
-                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/TX3"
@@ -70,27 +69,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="A tropical disturbance sometimes grows into a tropical depression. This is an area of rotating thunderstorms with winds of 62 km/hr (38 mph) or less."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/TX4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="4sp"
-                android:text="A tropical depression becomes a tropical storm if its winds reach 63 km/hr (39 mph)."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/TT2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="4sp"
-                android:text="A tropical storm becomes a hurricane it its winds reach 119 km/hr (74 mph)."
+                android:text="Most earthquakes occur along the edge of oceanic and continental plates. The earth's crust is made up of several pieces, called plates, that are moved around by the mantle, which lies under the crust. As these plates move, they are bumping, pulling, or sliding past on another. An earthquake will occurr when two plates either bump into or slide past one another."
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -102,51 +81,29 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="Parts of a hurricane"
+                android:text="How are they recorded?"
                 android:textSize="24sp"
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TT3"
+                android:id="@+id/TX4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text='Eye: the eye is the "hole" at the center of the storm. Winds are light in this area. Skies are partly cloudy, and sometimes even clear.'
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/TT4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="4sp"
-                android:text="Eye Wall: the eyewall is a ring of thunderstorms. These storms swirl around the eye. The wall is where winds are strongest and rain is heaviest."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/TX8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:lineSpacingExtra="4sp"
-                android:text="Rain Bands: bands of clouds and rain go far out from a hurricane's eye wall. These bands stretch for hundreds of miles. They contain thunderstorms and sometimes tornadoes."
+                android:text="Earthquakes are recorded using a seismographic network. A seismograph consists of a mass attached to a fixed base, so, during an earthquake, the base moves and the mass does not. The motion of the base moving in respect to the mass is transformed into an electrical voltage, which is either recorded on paper, magnetic tape, or another recording medium."
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/HurricaneCat"
+                android:id="@+id/Scale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="Hurricane Categories"
-                android:textSize="24sp"
-                android:typeface="normal" />
+                android:text="Richer Scale"
+                android:textSize="24sp" />
 
             <EditText
                 android:id="@+id/Terms"
@@ -155,44 +112,77 @@
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="Category      Wind Speed (MPH - KM/HR)" />
+                android:text="Magnitude      Force          Frequency" />
 
             <TextView
-                android:id="@+id/Cat1"
+                android:id="@+id/1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="Category 1    74-95 / 119-153"
+                android:text="<2.0                   Micro         8,000 per day (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/Cat2"
+                android:id="@+id/2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 2    96-110 / 154-177"
+                android:text="2.0-2.9              Minor          1,000 per day (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/Cat3"
+                android:id="@+id/3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 3    111-129 / 178-208"
+                android:text="3.0-3.9              Very Light   49,000 per year (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/Cat4"
+                android:id="@+id/4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 4    130-165 / 209-251"
+                android:text="4.0-4.9              Light            6,000 per year (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/Cat5"
+                android:id="@+id/5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 5    >157 / >252"
+                android:text="5.0-5.9              Moderate    800 per year"
                 android:textSize="18sp" />
 
+            <TextView
+                android:id="@+id/6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.0-6.9              Strong         120 per year"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.0-7.9              Major           18 per year"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.9-8.9              Great            1 per year"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.0-9.9              Extreme       1 per 20 years"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=">10.0                Epic              Unknown"
+                android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

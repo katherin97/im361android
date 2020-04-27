@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="What are volcanoes?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="Volcanoes are an opening in Earth's crust that allows molten rock to reach the surface. The molten rock is called magma while it is below the surface, but called lava once a volcano erupts."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Where are they common?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text='Most volcanoes are common along the Pacific Ocean, in an area that is referred to as the "Ring of Fire". This is because the Pacific Plate is surrounded by several continental plates. The movement of these plates create zones under the other. This causes the formation of volcanoes, and the occurance of earthquakes.'
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Active Volcanoes"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx3'"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text='In the world today, there are potentionally 1,500 active volcanoes, not counting the continuous belt of volcanoes on the ocean floor. Out of all of these, about 500 of them have erupted in historical time, with many of them being located in the "Ring of Fire".'
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Types of volcanoes"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are 4 major types of volcanoes:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Cinder Cone Volcanoes: the simplest type of volcano. They occur when particles and blocks of lava are ejected from a volcanic vent. Over time, this builds up a circular or oval-shaped cone, with a bowl-shaped crater at the top."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Composite Volcanoes: or stratovolcanoes make up some of the world's most memorable mountains: Mount Rainier, Mount Fiji, and Mount Cotopaxi. These volcanoes have a conduit system inside them that channel magma from deep within the Earth."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Shield Volcanoes: are large, broad volcanoes that look like shields from above. The lava flows out from these is thin, so it can travel for great distances."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Lava Domes: are created by small masses of lava which are too thick to flow very far. The dome grows by expansion of the lava within, and the mountain forms from material spilling off the sides."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

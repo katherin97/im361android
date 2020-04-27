@@ -10,6 +10,8 @@
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
         android:layout_height="718dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -20,7 +22,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/QS"
+                android:id="@+id/tx1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -32,7 +34,7 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TX"
+                android:id="@+id/TT1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -41,7 +43,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/QS4"
+                android:id="@+id/Q2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -53,7 +55,7 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TX5"
+                android:id="@+id/TT2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -62,7 +64,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/TX6"
+                android:id="@+id/TT3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -71,7 +73,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/QS5"
+                android:id="@+id/Q3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -84,7 +86,7 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TX7"
+                android:id="@+id/TT4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -93,7 +95,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/EFS2"
+                android:id="@+id/Scale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -105,13 +107,34 @@
                 android:typeface="normal" />
 
             <EditText
-                android:id="@+id/terms"
+                android:id="@+id/Terms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="EF Rating     Class   Wind Speed (MPH / KM/J)" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
 
             <TextView
                 android:id="@+id/EF-"

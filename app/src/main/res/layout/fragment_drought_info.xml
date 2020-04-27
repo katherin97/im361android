@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="What are droughts?"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="Droughts are periods of abnormally dry and precipitation-less weather. A misconceptioon is that droughts are brough on by periods of no rain or snow, and while this is common, the onset of a drought may be less noticeable. If snow or rain is in fewer amounts, such as a drizzle here and flurries there, instead of a steady rain or snow showers, this can also be an indication of a drought is on its way."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="How droughts hurt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Economic Impacts: this includes the loss of timber, agriculture, and fisheries. This can cause an increase in food prices, and in less developed countried, famine can become a problem."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Social Impacts: increased chance of conflict over commodities, fertile land, and water resources. It can also include abandonment of cultural traditions, loss of homelands, changes in lifresytle, and an increased chance of health risks."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Environmental Impacts: loss in species biodivercity, migration changes, reduced air quality, and increased soil erosion."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Types of droughts"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tx7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Hydrological Drought: watersheds experience depleted amoutns of avaliable water. Lack of water in rivers and reservoirs can impact hydroelectric power companies, farmers, wildfire, and commities."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Meterological Drought: a lack of precipitation is most common definition of a drought."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tx4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text=" - Agricultural Drought: when soil moisture becomes a problem. Shortages in precipitation, changes in evapotranspiratioon, and reduced groundwater levels and problems for crops."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
