@@ -22,7 +22,6 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/tx1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -34,7 +33,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TT1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -43,7 +41,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Q2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -55,7 +52,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TT2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -64,7 +60,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/TT3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -73,7 +68,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Q3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -86,7 +80,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TT4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -95,7 +88,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Scale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -107,7 +99,6 @@
                 android:typeface="normal" />
 
             <EditText
-                android:id="@+id/Terms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -115,29 +106,7 @@
                 android:inputType="textPersonName"
                 android:text="EF Rating     Class   Wind Speed (MPH / KM/J)" />
 
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </TableLayout>
-
             <TextView
-                android:id="@+id/EF-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -145,7 +114,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/EF-3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -153,7 +121,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/EF-4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -161,7 +128,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ef-"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -169,7 +135,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ef-2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -177,7 +142,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/ef-3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"

@@ -20,7 +20,6 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/tx1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -32,7 +31,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TT2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -42,7 +40,6 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/TX2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -52,7 +49,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Q2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -64,7 +60,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TX3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -74,7 +69,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Q3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -86,7 +80,6 @@
                 android:typeface="normal" />
 
             <TextView
-                android:id="@+id/TX4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
@@ -95,7 +88,6 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/Scale"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -106,7 +98,6 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/Terms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -115,70 +106,60 @@
                 android:text="Magnitude      Force          Frequency" />
 
             <TextView
-                android:id="@+id/1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="<2.0                   Micro         8,000 per day (est.)"
+                android:text="@string/_2_0_micro_8_000_per_day_est"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="2.0-2.9              Minor          1,000 per day (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="3.0-3.9              Very Light   49,000 per year (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="4.0-4.9              Light            6,000 per year (est.)"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="5.0-5.9              Moderate    800 per year"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="6.0-6.9              Strong         120 per year"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="7.0-7.9              Major           18 per year"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="8.9-8.9              Great            1 per year"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="9.0-9.9              Extreme       1 per 20 years"
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=">10.0                Epic              Unknown"
