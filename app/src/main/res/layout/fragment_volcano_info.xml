@@ -19,74 +19,63 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are volcanoes?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/what_are_volcanoes"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Volcanoes are an opening in Earth's crust that allows molten rock to reach the surface. The molten rock is called magma while it is below the surface, but called lava once a volcano erupts."
+                android:text="@string/volcanoes_are_an_opening_in_earth_s_crust_that_allows_molten_rock_to_reach_the_surface_the_molten_rock_is_called_magma_while_it_is_below_the_surface_but_called_lava_once_a_volcano_erupts"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Where are they common?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/where_are_they_found"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text='Most volcanoes are common along the Pacific Ocean, in an area that is referred to as the "Ring of Fire". This is because the Pacific Plate is surrounded by several continental plates. The movement of these plates create zones under the other. This causes the formation of volcanoes, and the occurance of earthquakes.'
+                android:text="@string/most_volcanoes_are_common_along_the_pacific_ocean_in_an_area_that_is_referred_to_as_the_ring_of_fire_this_is_because_the_pacific_plate_is_surrounded_by_several_continental_plates_the_movement_of_these_plates_create_zones_under_the_other_this_causes_the_formation_of_volcanoes_and_the_occurance_of_earthquakes"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/cinder_cone_volcanoes_the_simplest_type_of_volcano_they_occur_when_particles_and_blocks_of_lava_are_ejected_from_a_volcanic_vent_over_time_this_builds_up_a_circular_or_oval_shaped_cone_with_a_bowl_shaped_crater_at_the_top"
+                app:srcCompat="@drawable/volcanotypes" />
+
+            <TextView
+                android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Active Volcanoes"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/types_of_volcanoes"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:lineSpacingExtra="4sp"
-                android:text='In the world today, there are potentionally 1,500 active volcanoes, not counting the continuous belt of volcanoes on the ocean floor. Out of all of these, about 500 of them have erupted in historical time, with many of them being located in the "Ring of Fire".'
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Types of volcanoes"
-                android:textSize="24sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="There are 4 major types of volcanoes:"
+                android:text="@string/there_are_4_major_types_of_volcanoes"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -94,29 +83,54 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Cinder Cone Volcanoes: the simplest type of volcano. They occur when particles and blocks of lava are ejected from a volcanic vent. Over time, this builds up a circular or oval-shaped cone, with a bowl-shaped crater at the top."
+                android:text="@string/cinder_cone_volcanoes_the_simplest_type_of_volcano_they_occur_when_particles_and_blocks_of_lava_are_ejected_from_a_volcanic_vent_over_time_this_builds_up_a_circular_or_oval_shaped_cone_with_a_bowl_shaped_crater_at_the_top"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Composite Volcanoes: or stratovolcanoes make up some of the world's most memorable mountains: Mount Rainier, Mount Fiji, and Mount Cotopaxi. These volcanoes have a conduit system inside them that channel magma from deep within the Earth."
+                android:text="@string/composite_volcanoes_or_stratovolcanoes_make_up_some_of_the_world_s_most_memorable_mountains_mount_rainier_mount_fiji_and_mount_cotopaxi_these_volcanoes_have_a_conduit_system_inside_them_that_channel_magma_from_deep_within_the_earth"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Shield Volcanoes: are large, broad volcanoes that look like shields from above. The lava flows out from these is thin, so it can travel for great distances."
+                android:text="@string/shield_volcanoes_are_large_broad_volcanoes_that_look_like_shields_from_above_the_lava_flows_out_from_these_is_thin_so_it_can_travel_for_great_distances"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Lava Domes: are created by small masses of lava which are too thick to flow very far. The dome grows by expansion of the lava within, and the mountain forms from material spilling off the sides."
+                android:text="@string/lava_domes_are_created_by_small_masses_of_lava_which_are_too_thick_to_flow_very_far_the_dome_grows_by_expansion_of_the_lava_within_and_the_mountain_forms_from_material_spilling_off_the_sides"
                 android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/active_volcanoes"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/in_the_world_today_there_are_potentionally_1_500_active_volcanoes_not_counting_the_continuous_belt_of_volcanoes_on_the_ocean_floor_out_of_all_of_these_about_500_of_them_have_erupted_in_historical_time_with_many_of_them_being_located_in_the_ring_of_fire"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/earthquakes_are_recorded_using_a_seismographic_network_a_seismograph_consists_of_a_mass_attached_to_a_fixed_base_so_during_an_earthquake_the_base_moves_and_the_mass_does_not_the_motion_of_the_base_moving_in_respect_to_the_mass_is_transformed_into_an_electrical_voltage_which_is_either_recorded_on_paper_magnetic_tape_or_another_recording_medium"
+                app:srcCompat="@drawable/ringoffire" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

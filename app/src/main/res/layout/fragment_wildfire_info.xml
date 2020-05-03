@@ -20,40 +20,47 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are wildfires?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/what_are_wildfires"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Wildfires are uncontrolled blazes fueled by weather, wind, and dry underbrush. They can burn acres of land in mere minutes. On average, more than 10,000 wildfires clear between 4-5 million acres of land in the U.S. alon every year."
+                android:text="@string/wildfires_are_uncontrolled_blazes_fueled_by_weather_wind_and_dry_underbrush_they_can_burn_acres_of_land_in_mere_minutes_on_average_more_than_10_000_wildfires_clear_between_4_5_million_acres_of_land_in_the_u_s_alon_every_year"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/to_fight_wildfires_firefighters_deprive_them_from_one_or_more_of_the_3_elements_needed_traditionally_this_includes_water_dousing_and_spraying_fire_retardants_to_extiguish_existing_fires_it_also_includes_clearing_vegetation_to_create_firebreaks_to_starve_a_fire"
+                app:srcCompat="@drawable/wildfireformation" />
+
+            <TextView
+                android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="How are they formed?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/how_are_they_formed"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="There must be three conditions present for a wildfire to burn: fuel, oxygen, and a heat soure. Fuel is any flammable material surrounding a fire, air supplies the oxygen a fire needs to burn, while a heat source helps spark the wildfire and bring fuel to temperatures hot enough to ignite."
+                android:text="@string/there_must_be_three_conditions_present_for_a_wildfire_to_burn_fuel_oxygen_and_a_heat_soure_fuel_is_any_flammable_material_surrounding_a_fire_air_supplies_the_oxygen_a_fire_needs_to_burn_while_a_heat_source_helps_spark_the_wildfire_and_bring_fuel_to_temperatures_hot_enough_to_ignite"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -61,25 +68,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Four out of five wildfires are caused by people, whether it's by leaving burning campfires or cigarettes. And while they can happen everywhere in the world, they are most commin in the U.S. West, where heat, drought, and frequent thunderstorms create perfect wildfire conditions."
+                android:text="@string/four_out_of_five_wildfires_are_caused_by_people_whether_it_s_by_leaving_burning_campfires_or_cigarettes_and_while_they_can_happen_everywhere_in_the_world_they_are_most_commin_in_the_u_s_west_where_heat_drought_and_frequent_thunderstorms_create_perfect_wildfire_conditions"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="How to fight them"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/how_to_fight_them"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="To fight wildfires, firefighters deprive them from one or more of the 3 elements needed. Traditionally, this includes water dousing and spraying fire retardants to extiguish existing fires. It also includes clearing vegetation to create firebreaks to starve a fire."
+                android:text="@string/to_fight_wildfires_firefighters_deprive_them_from_one_or_more_of_the_3_elements_needed_traditionally_this_includes_water_dousing_and_spraying_fire_retardants_to_extiguish_existing_fires_it_also_includes_clearing_vegetation_to_create_firebreaks_to_starve_a_fire"
                 android:textColor="#000000"
                 android:textSize="18sp" />
         </LinearLayout>

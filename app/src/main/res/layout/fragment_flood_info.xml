@@ -20,39 +20,46 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are floods?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/what_are_floods"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Flooding is an overflow of water onto land that is normally dry. They can occur during heavy rains, when open waves come ashore, when the snow melts too fast, or when a dam breaks. They can either occur quickly or over a long time. The most dangerous kind of flooding is flash floods, as they combine both speed and unpredictability."
+                android:text="@string/flooding_is_an_overflow_of_water_onto_land_that_is_normally_dry_they_can_occur_during_heavy_rains_when_open_waves_come_ashore_when_the_snow_melts_too_fast_or_when_a_dam_breaks_they_can_either_occur_quickly_or_over_a_long_time_the_most_dangerous_kind_of_flooding_is_flash_floods_as_they_combine_both_speed_and_unpredictability"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:contentDescription="@string/causesofflooding"
+                app:srcCompat="@drawable/floodcauses" />
+
+            <TextView
+                android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Areas at risk of flash flooding"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/areas_at_risk_of_flash_flooding"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Densely populated areas are at high risk, as buildings, highways, driveways, and parking lots increase runoff."
+                android:text="@string/densely_populated_areas_are_at_high_risk_as_buildings_highways_driveways_and_parking_lots_increase_runoff"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -60,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Areas near rivers are at risk, though levees are often building along rivers to help prevent high water from flooding bordering land. Though, there have been instances when these levees have failed, resulting in devastating flash flooding."
+                android:text="@string/areas_near_rivers_are_at_risk_though_levees_are_often_building_along_rivers_to_help_prevent_high_water_from_flooding_bordering_land_though_there_have_been_instances_when_these_levees_have_failed_resulting_in_devastating_flash_flooding"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -68,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Dam failures can send a sudden destructive wall of water downstream, resulting in feet of water flooding downstream."
+                android:text="@string/dam_failures_can_send_a_sudden_destructive_wall_of_water_downstream_resulting_in_feet_of_water_flooding_downstream"
                 android:textColor="#000000"
                 android:textSize="18sp" />
         </LinearLayout>

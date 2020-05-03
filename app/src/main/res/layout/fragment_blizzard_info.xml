@@ -20,65 +20,64 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are blizzards?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/what_are_blizzards"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text='A blizzard is a storm with "considerable falling or blowing snow" and winds in excess of 35 mph, as well as visibilities of less than 1/4 mile for at least 3 hours.'
+                android:text="@string/a_blizzard_is_a_storm_with_considerable_falling_or_blowing_snow_and_winds_in_excess_of_35_mph_as_well_as_visibilities_of_less_than_1_4_mile_for_at_least_3_hours"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/blizzardformation"
+                app:srcCompat="@drawable/blizzardformation" />
+
+            <TextView
+                android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Why are they dangerous?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/why_are_they_dangerous"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text='Blizzards are dangerous as they can create life-threatening conditions. Driving can become difficult, or even impossible due to "whiteout" conditions and drifting snow. Strong winds and cold temperatures also create another danger. Especially in the Midwest, where wind chills can be below -65F, frostbite and hypothermia can set in fast. Blizzards can also cause power outages and pipes to freeze.'
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Types of blizzards"
-                android:textSize="24sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="4sp"
-                android:text=' - Snowstorm-type Blizzard: this is the "traditional" blizzard. This means that it will often include heavy snowfall and below-freezing temperatures. What makes it a blizzard is the winds of at least 35 mph.'
+                android:text="@string/blizzards_are_dangerous_as_they_can_create_life_threatening_conditions_driving_can_become_difficult_or_even_impossible_due_to_whiteout_conditions_and_drifting_snow_strong_winds_and_cold_temperatures_also_create_another_danger_especially_in_the_midwest_where_wind_chills_can_be_below_65f_frostbite_and_hypothermia_can_set_in_fast_blizzards_can_also_cause_power_outages_and_pipes_to_freeze"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
             <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/types_of_blizzards"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Ground Blizzard: the difference from a traditional blizzard is that there is no snowfall. This occurs when high winds blow the snow that has already fallen."
+                android:text="@string/snowstorm_type_blizzard_this_is_the_traditional_blizzard_this_means_that_it_will_often_include_heavy_snowfall_and_below_freezing_temperatures_what_makes_it_a_blizzard_is_the_winds_of_at_least_35_mph"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -86,7 +85,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Lake-Effect Blizzard: these are most common along large lakes, such as the Great Lakes. These types of blizzards are rare, only because lake-effect snow doesn't often rise when the wind blows too fast."
+                android:text="@string/ground_blizzard_the_difference_from_a_traditional_blizzard_is_that_there_is_no_snowfall_this_occurs_when_high_winds_blow_the_snow_that_has_already_fallen"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/lake_effect_blizzard_these_are_most_common_along_large_lakes_such_as_the_great_lakes_these_types_of_blizzards_are_rare_only_because_lake_effect_snow_doesn_t_often_rise_when_the_wind_blows_too_fast"
                 android:textColor="#000000"
                 android:textSize="18sp" />
         </LinearLayout>

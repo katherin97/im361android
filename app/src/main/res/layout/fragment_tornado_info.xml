@@ -9,7 +9,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
-        android:layout_height="718dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,16 +21,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:inputType="textPersonName"
+                android:fontFamily="monospace"
                 android:text="@string/what_are_tornadoes"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -40,16 +39,22 @@
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/tornadoformation"
+                app:srcCompat="@drawable/tornadoformation" />
+
+            <TextView
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
+                android:fontFamily="monospace"
                 android:text="@string/what_causes_tornadoes"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -67,17 +72,22 @@
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:inputType="textPersonName"
-                android:lineSpacingExtra="24sp"
+                android:fontFamily="monospace"
                 android:text="@string/where_are_they_common"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/while_tornadoes_can_happen_anywhere_they_are_most_common_in_the_great_plains_otherwise_known_as_tornado_alley_this_is_caused_by_the_cold_dry_air_coming_down_from_canada_meeting_the_warm_moist_air_traveling_from_the_gulf_of_mexico"
+                app:srcCompat="@drawable/tornadoalley" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -87,65 +97,65 @@
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:inputType="textPersonName"
+                android:fontFamily="monospace"
                 android:text="@string/enhanced_fujita_scale"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="EF Rating     Class   Wind Speed (MPH / KM/J)" />
+                android:fontFamily="serif-monospace"
+                android:text="@string/ef_rating_class_wind_speed_mph_km_j"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-0                Weak    65-85 / 105-137"
+                android:text="@string/ef_0_weak_65_85_105_137"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-1                Weak    86-110 / 137-177"
+                android:text="@string/ef_1_weak_86_110_137_177"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-2              Strong    111-135 / 178-217"
+                android:text="@string/ef_2_strong_111_135_178_217"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-3              Strong    136-165 / 218-266"
+                android:text="@string/ef_3_strong_136_165_218_266"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-4              Violent   166-200 / 267-322"
+                android:text="@string/ef_4_violent_166_200_267_322"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="EF-5              Violent   >200 / >322"
+                android:text="@string/ef_5_violent_200_322"
                 android:textSize="18sp" />
 
         </LinearLayout>

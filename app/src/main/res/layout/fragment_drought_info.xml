@@ -20,73 +20,46 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are droughts?"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/what_are_droughts"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Droughts are periods of abnormally dry and precipitation-less weather. A misconceptioon is that droughts are brough on by periods of no rain or snow, and while this is common, the onset of a drought may be less noticeable. If snow or rain is in fewer amounts, such as a drizzle here and flurries there, instead of a steady rain or snow showers, this can also be an indication of a drought is on its way."
+                android:text="@string/droughts_are_periods_of_abnormally_dry_and_precipitation_less_weather_a_misconceptioon_is_that_droughts_are_brough_on_by_periods_of_no_rain_or_snow_and_while_this_is_common_the_onset_of_a_drought_may_be_less_noticeable_if_snow_or_rain_is_in_fewer_amounts_such_as_a_drizzle_here_and_flurries_there_instead_of_a_steady_rain_or_snow_showers_this_can_also_be_an_indication_of_a_drought_is_on_its_way"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/droughtclassification"
+                app:srcCompat="@drawable/droughtclassification" />
+
+            <TextView
+                android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="How droughts hurt"
-                android:textSize="24sp" />
+                android:fontFamily="monospace"
+                android:text="@string/how_droughts_hurt"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Economic Impacts: this includes the loss of timber, agriculture, and fisheries. This can cause an increase in food prices, and in less developed countried, famine can become a problem."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="4sp"
-                android:text=" - Social Impacts: increased chance of conflict over commodities, fertile land, and water resources. It can also include abandonment of cultural traditions, loss of homelands, changes in lifresytle, and an increased chance of health risks."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="4sp"
-                android:text=" - Environmental Impacts: loss in species biodivercity, migration changes, reduced air quality, and increased soil erosion."
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Types of droughts"
-                android:textSize="24sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingExtra="4sp"
-                android:text=" - Hydrological Drought: watersheds experience depleted amoutns of avaliable water. Lack of water in rivers and reservoirs can impact hydroelectric power companies, farmers, wildfire, and commities."
+                android:text="@string/economic_impacts_this_includes_the_loss_of_timber_agriculture_and_fisheries_this_can_cause_an_increase_in_food_prices_and_in_less_developed_countried_famine_can_become_a_problem"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -94,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Meterological Drought: a lack of precipitation is most common definition of a drought."
+                android:text="@string/social_impacts_increased_chance_of_conflict_over_commodities_fertile_land_and_water_resources_it_can_also_include_abandonment_of_cultural_traditions_loss_of_homelands_changes_in_lifresytle_and_an_increased_chance_of_health_risks"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -102,7 +75,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text=" - Agricultural Drought: when soil moisture becomes a problem. Shortages in precipitation, changes in evapotranspiratioon, and reduced groundwater levels and problems for crops."
+                android:text="@string/environmental_impacts_loss_in_species_biodivercity_migration_changes_reduced_air_quality_and_increased_soil_erosion"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/types_of_droughts"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/hydrological_drought_watersheds_experience_depleted_amoutns_of_avaliable_water_lack_of_water_in_rivers_and_reservoirs_can_impact_hydroelectric_power_companies_farmers_wildfire_and_commities"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/meterological_drought_a_lack_of_precipitation_is_most_common_definition_of_a_drought"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/agricultural_drought_when_soil_moisture_becomes_a_problem_shortages_in_precipitation_changes_in_evapotranspiratioon_and_reduced_groundwater_levels_and_problems_for_crops"
                 android:textColor="#000000"
                 android:textSize="18sp" />
         </LinearLayout>

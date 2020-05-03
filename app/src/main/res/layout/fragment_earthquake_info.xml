@@ -19,23 +19,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are earthquakes?"
+                android:fontFamily="monospace"
+                android:text="@string/what_are_earthquakes"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="An earthquake happens when two tectonic plates slip past one another. The location below the earth's surface where the earthquake starts is called the hypocenter, with the location above on the surface called the epicenter."
+                android:text="@string/an_earthquake_happens_when_two_tectonic_plates_slip_past_one_another_the_location_below_the_earth_s_surface_where_the_earthquake_starts_is_called_the_hypocenter_with_the_location_above_on_the_surface_called_the_epicenter"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -44,66 +43,79 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Before an earthquake, there are sometimes foreshocks, which happen in the same place the larger earthquake will occur. The largest, main earthquake is called the mainshock, with the afterschocks that follow. And depending on the size of the mainshock, aftershocks can continue for weeks, months, and in some cases, years."
+                android:text="@string/before_an_earthquake_there_are_sometimes_foreshocks_which_happen_in_the_same_place_the_larger_earthquake_will_occur_the_largest_main_earthquake_is_called_the_mainshock_with_the_afterschocks_that_follow_and_depending_on_the_size_of_the_mainshock_aftershocks_can_continue_for_weeks_months_and_in_some_cases_years"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/earthquakeformation1"
+                app:srcCompat="@drawable/earthquakeformation" />
+
+            <TextView
+                android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Where do they occur?"
+                android:fontFamily="monospace"
+                android:text="@string/where_do_they_occur"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Most earthquakes occur along the edge of oceanic and continental plates. The earth's crust is made up of several pieces, called plates, that are moved around by the mantle, which lies under the crust. As these plates move, they are bumping, pulling, or sliding past on another. An earthquake will occurr when two plates either bump into or slide past one another."
+                android:text="@string/most_earthquakes_occur_along_the_edge_of_oceanic_and_continental_plates_the_earth_s_crust_is_made_up_of_several_pieces_called_plates_that_are_moved_around_by_the_mantle_which_lies_under_the_crust_as_these_plates_move_they_are_bumping_pulling_or_sliding_past_on_another_an_earthquake_will_occurr_when_two_plates_either_bump_into_or_slide_past_one_another"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="How are they recorded?"
+                android:fontFamily="monospace"
+                android:text="@string/how_are_they_recorded"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4sp"
-                android:text="Earthquakes are recorded using a seismographic network. A seismograph consists of a mass attached to a fixed base, so, during an earthquake, the base moves and the mass does not. The motion of the base moving in respect to the mass is transformed into an electrical voltage, which is either recorded on paper, magnetic tape, or another recording medium."
+                android:text="@string/earthquakes_are_recorded_using_a_seismographic_network_a_seismograph_consists_of_a_mass_attached_to_a_fixed_base_so_during_an_earthquake_the_base_moves_and_the_mass_does_not_the_motion_of_the_base_moving_in_respect_to_the_mass_is_transformed_into_an_electrical_voltage_which_is_either_recorded_on_paper_magnetic_tape_or_another_recording_medium"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Richer Scale"
-                android:textSize="24sp" />
+                android:contentDescription="@string/earthquakerecorder1"
+                app:srcCompat="@drawable/earthquakerecorder" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Magnitude      Force          Frequency" />
+                android:fontFamily="monospace"
+                android:text="@string/richer_scale"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="@string/magnitude_force_frequency"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -114,55 +126,55 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2.0-2.9              Minor          1,000 per day (est.)"
+                android:text="@string/_2_0_2_9_minor_1_000_per_day_est"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3.0-3.9              Very Light   49,000 per year (est.)"
+                android:text="@string/_3_0_3_9_very_light_49_000_per_year_est"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4.0-4.9              Light            6,000 per year (est.)"
+                android:text="@string/_4_0_4_9_light_6_000_per_year_est"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="5.0-5.9              Moderate    800 per year"
+                android:text="@string/_5_0_5_9_moderate_800_per_year"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="6.0-6.9              Strong         120 per year"
+                android:text="@string/_6_0_6_9_strong_120_per_year"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="7.0-7.9              Major           18 per year"
+                android:text="@string/_7_0_7_9_major_18_per_year"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="8.9-8.9              Great            1 per year"
+                android:text="@string/_8_9_8_9_great_1_per_year"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="9.0-9.9              Extreme       1 per 20 years"
+                android:text="@string/_9_0_9_9_extreme_1_per_20_years"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=">10.0                Epic              Unknown"
+                android:text="@string/_10_0_epic_unknown"
                 android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>

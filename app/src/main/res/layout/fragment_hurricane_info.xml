@@ -20,43 +20,48 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
+                android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="What are hurricanes?"
+                android:fontFamily="monospace"
+                android:text="@string/what_are_hurricanes"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Hurricanes arre large, swelling storms that form over warm ocean waters. When a hurricane reaches land, it pushes a wall of ocean water, called a storm surge, ashore. The storm surge and heavy rain from a hurrricane can cause flooding."
+                android:text="@string/hurricanes_arre_large_swelling_storms_that_form_over_warm_ocean_waters_when_a_hurricane_reaches_land_it_pushes_a_wall_of_ocean_water_called_a_storm_surge_ashore_the_storm_surge_and_heavy_rain_from_a_hurrricane_can_cause_flooding"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/hurricaneformation"
+                app:srcCompat="@drawable/hurricaneformation" />
+
+            <TextView
+                android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="How does a storm become a hurricane?"
+                android:fontFamily="monospace"
+                android:text="@string/how_does_a_storm_become_a_hurricane"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="A hurricane starts as a tropical disturbance. This is an area overr warm ocean waters where rain clouds are building."
+                android:text="@string/a_hurricane_starts_as_a_tropical_disturbance_this_is_an_area_overr_warm_ocean_waters_where_rain_clouds_are_building"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -65,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="A tropical disturbance sometimes grows into a tropical depression. This is an area of rotating thunderstorms with winds of 62 km/hr (38 mph) or less."
+                android:text="@string/a_tropical_disturbance_sometimes_grows_into_a_tropical_depression_this_is_an_area_of_rotating_thunderstorms_with_winds_of_62_km_hr_38_mph_or_less"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -74,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="A tropical depression becomes a tropical storm if its winds reach 63 km/hr (39 mph)."
+                android:text="@string/a_tropical_depression_becomes_a_tropical_storm_if_its_winds_reach_63_km_hr_39_mph"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -83,27 +88,33 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="A tropical storm becomes a hurricane it its winds reach 119 km/hr (74 mph)."
+                android:text="@string/a_tropical_storm_becomes_a_hurricane_it_its_winds_reach_119_km_hr_74_mph"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Parts of a hurricane"
+                android:fontFamily="monospace"
+                android:text="@string/parts_of_a_hurricane"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/hurricaneparts"
+                app:srcCompat="@drawable/hurricaneparts" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text='Eye: the eye is the "hole" at the center of the storm. Winds are light in this area. Skies are partly cloudy, and sometimes even clear.'
+                android:text="@string/eye_the_eye_is_the_hole_at_the_center_of_the_storm_winds_are_light_in_this_area_skies_are_partly_cloudy_and_sometimes_even_clear"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -112,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Eye Wall: the eyewall is a ring of thunderstorms. These storms swirl around the eye. The wall is where winds are strongest and rain is heaviest."
+                android:text="@string/eye_wall_the_eyewall_is_a_ring_of_thunderstorms_these_storms_swirl_around_the_eye_the_wall_is_where_winds_are_strongest_and_rain_is_heaviest"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -121,58 +132,58 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:lineSpacingExtra="4sp"
-                android:text="Rain Bands: bands of clouds and rain go far out from a hurricane's eye wall. These bands stretch for hundreds of miles. They contain thunderstorms and sometimes tornadoes."
+                android:text="@string/rain_bands_bands_of_clouds_and_rain_go_far_out_from_a_hurricane_s_eye_wall_these_bands_stretch_for_hundreds_of_miles_they_contain_thunderstorms_and_sometimes_tornadoes"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Hurricane Categories"
+                android:fontFamily="monospace"
+                android:text="@string/hurricane_categories"
+                android:textColor="@color/text"
                 android:textSize="24sp"
-                android:typeface="normal" />
+                android:typeface="sans" />
 
-            <EditText
+            <TextView
+                android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="Category      Wind Speed (MPH - KM/HR)" />
+                android:fontFamily="serif-monospace"
+                android:text="@string/category_wind_speed_mph_km_hr"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="Category 1    74-95 / 119-153"
+                android:text="@string/category_1_74_95_119_153"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 2    96-110 / 154-177"
+                android:text="@string/category_2_96_110_154_177"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 3    111-129 / 178-208"
+                android:text="@string/category_3_111_129_178_208"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 4    130-165 / 209-251"
+                android:text="@string/category_4_130_165_209_251"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category 5    >157 / >252"
+                android:text="@string/category_5_157_252"
                 android:textSize="18sp" />
 
         </LinearLayout>
