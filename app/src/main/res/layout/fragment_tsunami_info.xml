@@ -7,8 +7,8 @@
     android:layout_height="match_parent">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/tsunamiformation"
-                app:srcCompat="@drawable/tsunamiformation" />
+                android:src="@drawable/tsunamiformation" />
 
             <TextView
                 android:id="@+id/textView28"
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/tsunamis_are_detected_using_open_ocen_buoys_and_by_coastal_tide_gauges_the_information_from_these_instruments_is_reported_back_in_real_time_to_tsunami_warning_centers_one_in_alaska_and_another_in_hawaii_warning_centers_also_use_earthquake_seismic_data_to_estimate_the_strength_of_the_tsunamis_from_the_character_of_an_earthquake_since_seismic_waves_travel_faster_than_tsunamis"
-                app:srcCompat="@drawable/tsunamidetector" />
+                android:src="@drawable/tsunamidetector" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:contentDescription="@string/hurricaneformation"
-                app:srcCompat="@drawable/hurricaneformation" />
+                android:src="@drawable/hurricaneformation" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:contentDescription="@string/hurricaneparts"
-                app:srcCompat="@drawable/hurricaneparts" />
+                android:src="@drawable/hurricaneparts" />
 
             <TextView
                 android:layout_width="match_parent"

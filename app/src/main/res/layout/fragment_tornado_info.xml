@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/tornadoformation"
-                app:srcCompat="@drawable/tornadoformation" />
+                android:src="@drawable/tornadoformation" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/while_tornadoes_can_happen_anywhere_they_are_most_common_in_the_great_plains_otherwise_known_as_tornado_alley_this_is_caused_by_the_cold_dry_air_coming_down_from_canada_meeting_the_warm_moist_air_traveling_from_the_gulf_of_mexico"
-                app:srcCompat="@drawable/tornadoalley" />
+                android:src="@drawable/tornadoalley" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/earthquakeformation1"
-                app:srcCompat="@drawable/earthquakeformation" />
+                android:src="@drawable/earthquakeformation" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/earthquakerecorder1"
-                app:srcCompat="@drawable/earthquakerecorder" />
+                android:src="@drawable/earthquakerecorder" />
 
             <TextView
                 android:id="@+id/textView18"

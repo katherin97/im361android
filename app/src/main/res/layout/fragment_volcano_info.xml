@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:contentDescription="@string/cinder_cone_volcanoes_the_simplest_type_of_volcano_they_occur_when_particles_and_blocks_of_lava_are_ejected_from_a_volcanic_vent_over_time_this_builds_up_a_circular_or_oval_shaped_cone_with_a_bowl_shaped_crater_at_the_top"
-                app:srcCompat="@drawable/volcanotypes" />
+                android:src="@drawable/volcanotypes" />
 
             <TextView
                 android:id="@+id/textView30"
@@ -130,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:contentDescription="@string/earthquakes_are_recorded_using_a_seismographic_network_a_seismograph_consists_of_a_mass_attached_to_a_fixed_base_so_during_an_earthquake_the_base_moves_and_the_mass_does_not_the_motion_of_the_base_moving_in_respect_to_the_mass_is_transformed_into_an_electrical_voltage_which_is_either_recorded_on_paper_magnetic_tape_or_another_recording_medium"
-                app:srcCompat="@drawable/ringoffire" />
+                android:src="@drawable/ringoffire" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
