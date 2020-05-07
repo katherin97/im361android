@@ -24,20 +24,19 @@
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_hurricanes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/hurricanes_arre_large_swelling_storms_that_form_over_warm_ocean_waters_when_a_hurricane_reaches_land_it_pushes_a_wall_of_ocean_water_called_a_storm_surge_ashore_the_storm_surge_and_heavy_rain_from_a_hurrricane_can_cause_flooding"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -50,57 +49,59 @@
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_does_a_storm_become_a_hurricane"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/a_hurricane_starts_as_a_tropical_disturbance_this_is_an_area_overr_warm_ocean_waters_where_rain_clouds_are_building"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/a_tropical_disturbance_sometimes_grows_into_a_tropical_depression_this_is_an_area_of_rotating_thunderstorms_with_winds_of_62_km_hr_38_mph_or_less"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/a_tropical_depression_becomes_a_tropical_storm_if_its_winds_reach_63_km_hr_39_mph"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/a_tropical_storm_becomes_a_hurricane_it_its_winds_reach_119_km_hr_74_mph"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/parts_of_a_hurricane"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -112,79 +113,86 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/eye_the_eye_is_the_hole_at_the_center_of_the_storm_winds_are_light_in_this_area_skies_are_partly_cloudy_and_sometimes_even_clear"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/eye_wall_the_eyewall_is_a_ring_of_thunderstorms_these_storms_swirl_around_the_eye_the_wall_is_where_winds_are_strongest_and_rain_is_heaviest"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/rain_bands_bands_of_clouds_and_rain_go_far_out_from_a_hurricane_s_eye_wall_these_bands_stretch_for_hundreds_of_miles_they_contain_thunderstorms_and_sometimes_tornadoes"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/hurricane_categories"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="serif-monospace"
+                android:fontFamily="@font/fira_mono"
                 android:text="@string/category_wind_speed_mph_km_hr"
                 android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
+                android:text="@string/category_1_74_95_119_153"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="@string/category_1_74_95_119_153"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/category_2_96_110_154_177"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/category_3_111_129_178_208"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/category_4_130_165_209_251"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/category_5_157_252"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
     </ScrollView>

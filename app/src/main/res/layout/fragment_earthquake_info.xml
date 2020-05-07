@@ -23,29 +23,28 @@
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_earthquakes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/an_earthquake_happens_when_two_tectonic_plates_slip_past_one_another_the_location_below_the_earth_s_surface_where_the_earthquake_starts_is_called_the_hypocenter_with_the_location_above_on_the_surface_called_the_epicenter"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/before_an_earthquake_there_are_sometimes_foreshocks_which_happen_in_the_same_place_the_larger_earthquake_will_occur_the_largest_main_earthquake_is_called_the_mainshock_with_the_afterschocks_that_follow_and_depending_on_the_size_of_the_mainshock_aftershocks_can_continue_for_weeks_months_and_in_some_cases_years"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -54,42 +53,49 @@
                 android:contentDescription="@string/earthquakeformation1"
                 android:src="@drawable/earthquakeformation" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/where_do_they_occur"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/most_earthquakes_occur_along_the_edge_of_oceanic_and_continental_plates_the_earth_s_crust_is_made_up_of_several_pieces_called_plates_that_are_moved_around_by_the_mantle_which_lies_under_the_crust_as_these_plates_move_they_are_bumping_pulling_or_sliding_past_on_another_an_earthquake_will_occurr_when_two_plates_either_bump_into_or_slide_past_one_another"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_are_they_recorded"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/earthquakes_are_recorded_using_a_seismographic_network_a_seismograph_consists_of_a_mass_attached_to_a_fixed_base_so_during_an_earthquake_the_base_moves_and_the_mass_does_not_the_motion_of_the_base_moving_in_respect_to_the_mass_is_transformed_into_an_electrical_voltage_which_is_either_recorded_on_paper_magnetic_tape_or_another_recording_medium"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -98,84 +104,97 @@
                 android:contentDescription="@string/earthquakerecorder1"
                 android:src="@drawable/earthquakerecorder" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
+
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/richer_scale"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="serif-monospace"
+                android:fontFamily="@font/fira_mono"
                 android:text="@string/magnitude_force_frequency"
                 android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
+                android:text="@string/_2_0_micro_8_000_per_day_est"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/_2_0_micro_8_000_per_day_est"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_2_0_2_9_minor_1_000_per_day_est"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_3_0_3_9_very_light_49_000_per_year_est"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_4_0_4_9_light_6_000_per_year_est"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_5_0_5_9_moderate_800_per_year"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_6_0_6_9_strong_120_per_year"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_7_0_7_9_major_18_per_year"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_8_9_8_9_great_1_per_year"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_9_0_9_9_extreme_1_per_20_years"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/_10_0_epic_unknown"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

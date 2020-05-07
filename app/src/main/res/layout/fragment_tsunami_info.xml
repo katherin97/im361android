@@ -24,20 +24,19 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_tsunamis"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/tsunamis_also_known_as_seismic_sea_waves_are_a_series_of_enormous_waves_that_are_created_by_an_underwater_disturbance_such_as_an_earthquake_landslide_volcanic_eruption_or_meteorite_a_tsunami_can_travel_for_hundreds_of_miles_per_hour_in_the_open_oean_and_smash_into_land_with_waves_as_high_as_100_feet_or_even_more"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -50,39 +49,41 @@
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/where_do_they_commonly_occur"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/tsunamis_can_occur_in_all_large_bodies_of_water_but_are_more_common_in_the_pacific_ocean_this_is_not_only_due_to_its_size_but_also_due_to_the_series_of_mountains_deep_ocean_trenches_and_the_ring_of_fire_off_the_coasts_of_kamchatka_japan_the_kuril_islands_alaska_and_south_america"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_are_they_detected"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/tsunamis_are_detected_using_open_ocen_buoys_and_by_coastal_tide_gauges_the_information_from_these_instruments_is_reported_back_in_real_time_to_tsunami_warning_centers_one_in_alaska_and_another_in_hawaii_warning_centers_also_use_earthquake_seismic_data_to_estimate_the_strength_of_the_tsunamis_from_the_character_of_an_earthquake_since_seismic_waves_travel_faster_than_tsunamis"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView2"

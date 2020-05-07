@@ -24,19 +24,19 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_blizzards"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/a_blizzard_is_a_storm_with_considerable_falling_or_blowing_snow_and_winds_in_excess_of_35_mph_as_well_as_visibilities_of_less_than_1_4_mile_for_at_least_3_hours"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -45,57 +45,67 @@
                 android:contentDescription="@string/blizzardformation"
                 android:src="@drawable/blizzardformation" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/why_are_they_dangerous"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/blizzards_are_dangerous_as_they_can_create_life_threatening_conditions_driving_can_become_difficult_or_even_impossible_due_to_whiteout_conditions_and_drifting_snow_strong_winds_and_cold_temperatures_also_create_another_danger_especially_in_the_midwest_where_wind_chills_can_be_below_65f_frostbite_and_hypothermia_can_set_in_fast_blizzards_can_also_cause_power_outages_and_pipes_to_freeze"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/types_of_blizzards"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/snowstorm_type_blizzard_this_is_the_traditional_blizzard_this_means_that_it_will_often_include_heavy_snowfall_and_below_freezing_temperatures_what_makes_it_a_blizzard_is_the_winds_of_at_least_35_mph"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/ground_blizzard_the_difference_from_a_traditional_blizzard_is_that_there_is_no_snowfall_this_occurs_when_high_winds_blow_the_snow_that_has_already_fallen"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/lake_effect_blizzard_these_are_most_common_along_large_lakes_such_as_the_great_lakes_these_types_of_blizzards_are_rare_only_because_lake_effect_snow_doesn_t_often_rise_when_the_wind_blows_too_fast"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

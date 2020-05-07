@@ -25,19 +25,19 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_tornadoes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/tornadoes_are_vertical_funnels_of_rapidly_spinning_air_they_arre_born_in_thunderstorms_and_are_often_accompanied_by_hail_with_giant_persistent_thunderstorms_called_supercells_being_known_to_spawn_the_most_destructive_tornadoes"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -46,41 +46,49 @@
                 android:contentDescription="@string/tornadoformation"
                 android:src="@drawable/tornadoformation" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_causes_tornadoes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/tornadoes_form_when_warm_humid_air_collides_with_cold_dry_air_when_the_denser_cold_air_is_pushed_over_the_warm_air_thunderstorms_are_produced_when_the_warm_air_rises_through_the_colder_air_it_causes_an_updraft_that_will_begin_to_rotate_if_winds_vary_in_speed_or_direction"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/the_rotating_updraft_which_is_called_a_mesocycle_draws_in_more_warm_air_from_the_thunderstorm_the_rotation_speed_increases_the_cold_air_from_the_jet_stream_provides_more_energy_and_water_from_the_moist_air_helps_form_the_funnel_cloud_once_the_funnel_cloud_touches_the_ground_it_becomes_a_tornado"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/where_are_they_common"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -92,71 +100,75 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/while_tornadoes_can_happen_anywhere_they_are_most_common_in_the_great_plains_otherwise_known_as_tornado_alley_this_is_caused_by_the_cold_dry_air_coming_down_from_canada_meeting_the_warm_moist_air_traveling_from_the_gulf_of_mexico"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/enhanced_fujita_scale"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="serif-monospace"
+                android:fontFamily="@font/fira_mono"
                 android:text="@string/ef_rating_class_wind_speed_mph_km_j"
                 android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
+                android:text="@string/ef_0_weak_65_85_105_137"
                 android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="@string/ef_0_weak_65_85_105_137"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/ef_1_weak_86_110_137_177"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/ef_2_strong_111_135_178_217"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/ef_3_strong_136_165_218_266"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/ef_4_violent_166_200_267_322"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:text="@string/ef_5_violent_200_322"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
         </LinearLayout>
     </ScrollView>

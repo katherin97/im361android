@@ -24,20 +24,19 @@
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_wildfires"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/wildfires_are_uncontrolled_blazes_fueled_by_weather_wind_and_dry_underbrush_they_can_burn_acres_of_land_in_mere_minutes_on_average_more_than_10_000_wildfires_clear_between_4_5_million_acres_of_land_in_the_u_s_alon_every_year"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -46,49 +45,58 @@
                 android:contentDescription="@string/to_fight_wildfires_firefighters_deprive_them_from_one_or_more_of_the_3_elements_needed_traditionally_this_includes_water_dousing_and_spraying_fire_retardants_to_extiguish_existing_fires_it_also_includes_clearing_vegetation_to_create_firebreaks_to_starve_a_fire"
                 android:src="@drawable/wildfireformation" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_are_they_formed"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/there_must_be_three_conditions_present_for_a_wildfire_to_burn_fuel_oxygen_and_a_heat_soure_fuel_is_any_flammable_material_surrounding_a_fire_air_supplies_the_oxygen_a_fire_needs_to_burn_while_a_heat_source_helps_spark_the_wildfire_and_bring_fuel_to_temperatures_hot_enough_to_ignite"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/four_out_of_five_wildfires_are_caused_by_people_whether_it_s_by_leaving_burning_campfires_or_cigarettes_and_while_they_can_happen_everywhere_in_the_world_they_are_most_commin_in_the_u_s_west_where_heat_drought_and_frequent_thunderstorms_create_perfect_wildfire_conditions"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_to_fight_them"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/to_fight_wildfires_firefighters_deprive_them_from_one_or_more_of_the_3_elements_needed_traditionally_this_includes_water_dousing_and_spraying_fire_retardants_to_extiguish_existing_fires_it_also_includes_clearing_vegetation_to_create_firebreaks_to_starve_a_fire"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

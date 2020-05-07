@@ -23,37 +23,41 @@
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_volcanoes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/volcanoes_are_an_opening_in_earth_s_crust_that_allows_molten_rock_to_reach_the_surface_the_molten_rock_is_called_magma_while_it_is_below_the_surface_but_called_lava_once_a_volcano_erupts"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView34"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/where_are_they_found"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/most_volcanoes_are_common_along_the_pacific_ocean_in_an_area_that_is_referred_to_as_the_ring_of_fire_this_is_because_the_pacific_plate_is_surrounded_by_several_continental_plates_the_movement_of_these_plates_create_zones_under_the_other_this_causes_the_formation_of_volcanoes_and_the_occurance_of_earthquakes"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -66,64 +70,72 @@
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/types_of_volcanoes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/fira_mono"
                 android:text="@string/there_are_4_major_types_of_volcanoes"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/cinder_cone_volcanoes_the_simplest_type_of_volcano_they_occur_when_particles_and_blocks_of_lava_are_ejected_from_a_volcanic_vent_over_time_this_builds_up_a_circular_or_oval_shaped_cone_with_a_bowl_shaped_crater_at_the_top"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/composite_volcanoes_or_stratovolcanoes_make_up_some_of_the_world_s_most_memorable_mountains_mount_rainier_mount_fiji_and_mount_cotopaxi_these_volcanoes_have_a_conduit_system_inside_them_that_channel_magma_from_deep_within_the_earth"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/shield_volcanoes_are_large_broad_volcanoes_that_look_like_shields_from_above_the_lava_flows_out_from_these_is_thin_so_it_can_travel_for_great_distances"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/lava_domes_are_created_by_small_masses_of_lava_which_are_too_thick_to_flow_very_far_the_dome_grows_by_expansion_of_the_lava_within_and_the_mountain_forms_from_material_spilling_off_the_sides"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/active_volcanoes"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/in_the_world_today_there_are_potentionally_1_500_active_volcanoes_not_counting_the_continuous_belt_of_volcanoes_on_the_ocean_floor_out_of_all_of_these_about_500_of_them_have_erupted_in_historical_time_with_many_of_them_being_located_in_the_ring_of_fire"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView8"

@@ -24,19 +24,19 @@
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/what_are_droughts"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/droughts_are_periods_of_abnormally_dry_and_precipitation_less_weather_a_misconceptioon_is_that_droughts_are_brough_on_by_periods_of_no_rain_or_snow_and_while_this_is_common_the_onset_of_a_drought_may_be_less_noticeable_if_snow_or_rain_is_in_fewer_amounts_such_as_a_drizzle_here_and_flurries_there_instead_of_a_steady_rain_or_snow_showers_this_can_also_be_an_indication_of_a_drought_is_on_its_way"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView13"
@@ -45,73 +45,85 @@
                 android:contentDescription="@string/droughtclassification"
                 android:src="@drawable/droughtclassification" />
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/how_droughts_hurt"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/economic_impacts_this_includes_the_loss_of_timber_agriculture_and_fisheries_this_can_cause_an_increase_in_food_prices_and_in_less_developed_countried_famine_can_become_a_problem"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/social_impacts_increased_chance_of_conflict_over_commodities_fertile_land_and_water_resources_it_can_also_include_abandonment_of_cultural_traditions_loss_of_homelands_changes_in_lifresytle_and_an_increased_chance_of_health_risks"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/environmental_impacts_loss_in_species_biodivercity_migration_changes_reduced_air_quality_and_increased_soil_erosion"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="monospace"
+                android:fontFamily="@font/fira_mono_medium"
                 android:text="@string/types_of_droughts"
                 android:textColor="@color/text"
-                android:textSize="24sp"
-                android:typeface="sans" />
+                android:textSize="24sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/hydrological_drought_watersheds_experience_depleted_amoutns_of_avaliable_water_lack_of_water_in_rivers_and_reservoirs_can_impact_hydroelectric_power_companies_farmers_wildfire_and_commities"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/meterological_drought_a_lack_of_precipitation_is_most_common_definition_of_a_drought"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_sans_light"
                 android:lineSpacingExtra="4sp"
                 android:text="@string/agricultural_drought_when_soil_moisture_becomes_a_problem_shortages_in_precipitation_changes_in_evapotranspiratioon_and_reduced_groundwater_levels_and_problems_for_crops"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
